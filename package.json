@@ -14,6 +14,9 @@
     "global-agent": "^2.1.12",
     "global-tunnel-ng": "^2.7.1"
   },
+  "files": [
+    "dist/*.d.ts"
+  ],
   "devDependencies": {
     "@types/global-agent": "^2.1.0",
     "@types/global-tunnel-ng": "^2.1.0",
