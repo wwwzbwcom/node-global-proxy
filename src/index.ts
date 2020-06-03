@@ -33,8 +33,8 @@ class NodeGlobalProxy {
     /** Use system proxy */
     system(): void {
         let config: NodeGlobalProxyConfig = {
-            http: (global as any).HTTP_PROXY,
-            https: (global as any).HTTPS_PROXY
+            http: process.env.HTTP_PROXY,
+            https: process.env.HTTPS_PROXY
         }
 
         this.setConfig(config);
