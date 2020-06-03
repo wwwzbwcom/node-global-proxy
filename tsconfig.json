@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "types": [
+            "mocha",
+            "node"
+        ],
+        "outDir": "dist",
+        "rootDir": "src",
+        "declaration": true
+    }
+}
