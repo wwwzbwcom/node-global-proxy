@@ -1,6 +1,8 @@
 # Node Global Proxy
 
-Global Proxy for Node.JS with Friendly APIs
+Global Proxy for Node.JS with Friendly APIs.
+
+Work with Axios, Request, Got, Superagent etc.
 
 ## Install
 
