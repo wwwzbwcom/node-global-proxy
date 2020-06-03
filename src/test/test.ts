@@ -35,7 +35,7 @@ describe('Test Proxy Config Parsing', () => {
             http: "http://stringproxy",
             https: "https://stringproxy",
         };
-        proxy.setConfig("all://stringproxy");
+        proxy.setConfig("stringproxy");
         assert.deepEqual(config, proxy.getConfig())
     });
 });

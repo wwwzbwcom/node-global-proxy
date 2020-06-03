@@ -4,7 +4,6 @@
   "description": "A global proxy for Node.JS with friendly API",
   "main": "dist/index.js",
   "scripts": {
-
     "build": "tsc",
     "test": "mocha dist/test"
   },
@@ -12,12 +11,12 @@
   "types": "dist/index.d.ts",
   "license": "MIT",
   "dependencies": {
-    "@types/global-agent": "^2.1.0",
-    "@types/global-tunnel-ng": "^2.1.0",
     "global-agent": "^2.1.12",
     "global-tunnel-ng": "^2.7.1"
   },
   "devDependencies": {
+    "@types/global-agent": "^2.1.0",
+    "@types/global-tunnel-ng": "^2.1.0",
     "@types/chai": "^4.2.11",
     "@types/mocha": "^7.0.2",
     "@types/node": "^14.0.9",
