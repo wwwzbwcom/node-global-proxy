@@ -12,7 +12,7 @@ npm install node-global-proxy --save
 
 ## Introduction
 
-Basic use with Javascript:
+### Basic use with Javascript
 
 ```js
 const proxy = require("node-global-proxy").default;
@@ -45,7 +45,9 @@ proxy.stop();
 /** Proxy stop working now! */
 ```
 
-Use with typescript or es6+
+### Use with Typescript or ES6+
+
+This package is develop by typescript and fully support typescript, you can use it as follow:
 
 ```ts
 import proxy from "node-global-rpoxy";
