@@ -99,7 +99,7 @@ class NodeGlobalProxy {
             let s = url.split(':');
             let host = s[0];
             let port = 80;
-            if (s.length < 1) {
+            if (s.length > 1) {
                 port = parseInt(s[1]);
             }
             globalTunnel.initialize({
