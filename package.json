@@ -2,13 +2,13 @@
   "name": "node-global-proxy",
   "version": "1.0.0",
   "description": "A global proxy for Node.JS with friendly API",
-  "main": "dist/index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "build": "tsc",
-    "test": "mocha dist/test"
+    "build": "tsc -p .",
+    "test": "mocha 'test/**/*.ts' --require ts-node/register"
   },
   "author": "wwwzbwcom",
-  "types": "dist/index.d.ts",
+  "types": "lib/index.d.ts",
   "license": "MIT",
   "dependencies": {
     "global-agent": "^2.1.12",
@@ -18,12 +18,14 @@
     "dist/*.d.ts"
   ],
   "devDependencies": {
+    "@types/chai": "^4.2.15",
     "@types/global-agent": "^2.1.0",
     "@types/global-tunnel-ng": "^2.1.0",
-    "@types/chai": "^4.2.11",
-    "@types/mocha": "^7.0.2",
-    "@types/node": "^14.0.9",
-    "chai": "^4.2.0",
-    "mocha": "^7.2.0"
+    "@types/mocha": "^8.2.0",
+    "@types/node": "^14.14.28",
+    "chai": "^4.3.0",
+    "mocha": "^8.2.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.5"
   }
 }

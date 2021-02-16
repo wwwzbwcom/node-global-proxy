@@ -6,12 +6,10 @@
         "removeComments": true,
         "preserveConstEnums": true,
         "sourceMap": true,
-        "types": [
-            "mocha",
-            "node"
-        ],
-        "outDir": "dist",
+        "outDir": "lib",
         "rootDir": "src",
         "declaration": true
-    }
+    },
+    "include": ["src"],
+    "exclude": ["test", "lib"]
 }
