@@ -47,10 +47,10 @@ proxy.stop();
 
 ### Use with Typescript or ES6+
 
-This package is develop by typescript and fully support typescript, you can use it as follow:
+This package is developed Typescript and fully supports Typescript, you can use it as follow:
 
 ```ts
-import proxy from "node-global-rpoxy";
+import proxy from "node-global-proxy";
 
 proxy.setConfig("http://localhost:1080");
 proxy.start();
